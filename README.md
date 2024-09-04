@@ -46,3 +46,39 @@ GET  -> Retornar alguma página
 # Estrutura do laravel
 Ele usa o MVC. Model, View e Controller
 
+Model -> /app/Models
+Controller -> /app/Http/Controllers
+View ->  resources/views
+
+Sempre que requisitar uma rota ele vai chamar um controller, esse controller sempre vai retornar uma view no fim, podendo interagir com models antes de mexer na view
+
+
+# Git 
+
+## Clonando repositório do professor
+git clone url_repositório
+
+execute o comando ```git remote -v```
+
+origin  https://github.com/rafaeljordaojardim/project-laravel-aula.git (fetch)
+origin  https://github.com/rafaeljordaojardim/project-laravel-aula.git (push)
+
+Ele irá retornar algo parecido com as linhas de cima, isso significa que o "remoto" (origin) está apontado para meu repositório, se quiserem subir no seus, terão que mudar essa "origin" (remoto).
+
+## Como mudar o remoto (origin) no meu repo na minha máquina
+
+git remote set-url origin https://gitlab.com/alunorepo/repo-name.git
+essa url acima você irá pegar do seu repositório que criou
+
+git add . -> adicionar arquivos pro commit
+git commit -m "mensagem" -> criar mensagem pro pacote 
+git push origin main -> mandar pro github
+git pull origin main
+
+Não se esqueça do token que aprendemos a criar para logar no github
+
+podemos tambem setar a url da seguinte maneira no qual não precisaremos mais colocar password
+
+git remote set-url origin https://seu_token_aqui@gitlab.com/alunorepo/repo-name.git
+
+
