@@ -82,3 +82,7 @@ podemos tambem setar a url da seguinte maneira no qual não precisaremos mais co
 git remote set-url origin https://seu_token_aqui@gitlab.com/alunorepo/repo-name.git
 
 
+Caso queira criar uma nova origin
+
+git remote add new_origin_name [repo-url]
+
